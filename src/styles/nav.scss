@@ -1,0 +1,24 @@
+.nav {
+  height: 52px;
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    height: 52px;
+
+    gap: 13px;
+  }
+  
+  &__link{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    font-size: 21px;
+    line-height: 31px;
+  }
+}

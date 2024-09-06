@@ -1,0 +1,55 @@
+.footer {
+  background-color: #F8F8F8;
+  height: 552px;
+  width: 100%;
+  padding-top: 110px;
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 274px;
+    height: 54px;
+    padding-bottom: 80px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    padding-bottom: 62px;
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  &__bottom {
+    height: 84px;
+
+    background-color: #545454;
+    color: #fff;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+
+    text-align: center;
+    padding-top: 26px;
+  }
+
+  &__muhamed {
+    color: #FD6F00;
+  }
+}

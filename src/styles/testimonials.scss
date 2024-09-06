@@ -1,0 +1,27 @@
+.tesimonials {
+  padding-top: 120px;
+  &__title {
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 97px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+
+  &__text {
+    margin: 0 240px 45px 240px;
+    width: 932px;
+    height: 101px;
+
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+
+  &__slider {
+    margin: 87px 600px 0;
+  }
+}
+

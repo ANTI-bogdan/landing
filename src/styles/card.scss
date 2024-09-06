@@ -1,0 +1,49 @@
+.card {
+  background-color: #F8F8F8;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  width: 1087px;
+  height: 344px;
+  margin: auto;
+
+  &__texts{
+    width: 716px;
+    color: #000;
+  }
+  
+  &__foto {
+    padding: 50px 10px 50px 50px;
+    width: 235px;
+    height: 235px;
+  }
+  &__quotes {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FD6F00;
+  }
+
+  &__text {
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+    color: #424242;
+    margin: 0;
+    
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1.5px;
+    margin: 0;
+  }
+
+  &__position {
+    font-size: 19px;
+    line-height: 28px;
+    margin: 0;
+  }
+}
